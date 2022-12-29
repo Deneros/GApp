@@ -1,0 +1,21 @@
+{
+    "name": "estuscode/gcontrol",
+    "description": "Test of a documental management",
+    "type": "projct",
+    "autoload": {
+        "psr-4": {
+            "Estuscode\\Gcontrol\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Acris"
+        }
+    ],
+    "require": {
+        "laminas/laminas-diactoros": "^2.24",
+        "woohoolabs/harmony": "^7.1",
+        "nikic/fast-route": "^1.3",
+        "laminas/laminas-httphandlerrunner": "^2.4"
+    }
+}
