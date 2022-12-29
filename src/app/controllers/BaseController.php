@@ -1,25 +1,22 @@
 <?php
 
-namespace App\Models;
+namespace App\Controller;
 
-class BaseController 
+class BaseController
 {
     private array $data;
     private string $render;
-    
-    public function __construct($template)
-    {
-       try {
-        $file = $_SERVER['REQUEST_URI'] . '/templates/' . strtolower($template) . '.php';
 
-        if(file_exists($file)){
-            $this->render = $file;
+
+    public function render(string $viewName, array $data)
+    {
+        $viewPath = __DIR__."/../../views/". $viewName . ".phtml";
+
+        if(file_exists($viewPath)){
+            extract($data);
+            require_once($viewPath);
         }else {
-            // throw new customException('Template ' . $template . ' not found!');
+            echo "Error: La vista: $viewName no existe";
         }
-        
-       } catch (\Throwable $th) {
-        //throw $th;
-       }
     }
 }
