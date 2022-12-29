@@ -10,8 +10,10 @@ return array(
     'Psr\\Http\\Server\\' => array($vendorDir . '/psr/http-server-handler/src', $vendorDir . '/psr/http-server-middleware/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Model\\' => array($baseDir . '/src/app/models'),
     'Laminas\\HttpHandlerRunner\\' => array($vendorDir . '/laminas/laminas-httphandlerrunner/src'),
     'Laminas\\Diactoros\\' => array($vendorDir . '/laminas/laminas-diactoros/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Estuscode\\Gcontrol\\' => array($baseDir . '/src'),
+    'Controller\\' => array($baseDir . '/src/app/controller'),
 );

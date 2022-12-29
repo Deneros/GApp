@@ -37,6 +37,10 @@ class ComposerStaticInitc137e78c858d37948edb824a7274fe8d
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
+        'M' => 
+        array (
+            'Model\\' => 6,
+        ),
         'L' => 
         array (
             'Laminas\\HttpHandlerRunner\\' => 26,
@@ -49,6 +53,10 @@ class ComposerStaticInitc137e78c858d37948edb824a7274fe8d
         'E' => 
         array (
             'Estuscode\\Gcontrol\\' => 19,
+        ),
+        'C' => 
+        array (
+            'Controller\\' => 11,
         ),
     );
 
@@ -71,6 +79,10 @@ class ComposerStaticInitc137e78c858d37948edb824a7274fe8d
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/app/models',
+        ),
         'Laminas\\HttpHandlerRunner\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-httphandlerrunner/src',
@@ -86,6 +98,10 @@ class ComposerStaticInitc137e78c858d37948edb824a7274fe8d
         'Estuscode\\Gcontrol\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/app/controller',
         ),
     );
 
