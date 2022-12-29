@@ -4,7 +4,9 @@
     "type": "projct",
     "autoload": {
         "psr-4": {
-            "Estuscode\\Gcontrol\\": "src/"
+            "Estuscode\\Gcontrol\\": "src/",
+            "Model\\":"src/app/models",
+            "Controller\\":"src/app/controller"
         }
     },
     "authors": [
